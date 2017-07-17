@@ -1,0 +1,14 @@
+2017-07-17_10:14:46.511 [main] INFO  act.Act - loading application(s) ...
+2017-07-17_10:14:46.573 [main] INFO  act.Act - App starting ....
+2017-07-17_10:14:46.667 [main] WARN  act.conf.AppConfig - Application secret key not set! You are in the dangerous zone!!!
+2017-07-17_10:14:46.791 [main] WARN  act.app.DbServiceManager - DB service not initialized: No DB plugin found
+2017-07-17_10:14:47.587 [main] WARN  act.mail.MailerConfig - smtp host configuration not found, will use mock smtp to send email
+2017-07-17_10:14:47.587 [main] WARN  act.conf.AppConfig - host is not configured. Use localhost as hostname
+2017-07-17_10:14:47.901 [main] INFO  act.Act - App[Hello World] loaded in 1328ms
+2017-07-17_10:14:48.322 [main] INFO  act.Act - network client hooked on port: 5460
+2017-07-17_10:14:48.338 [main] INFO  act.Act - CLI server started on port: 5461
+2017-07-17_10:14:48.353 [main] INFO  act.Act - it takes 3314ms to start the app
+
+2017-07-17_10:15:05.833 [cli-thread-4] ERROR act.Act - Software caused connection abort: recv failed
+2017-07-17_10:15:05.996 [cli-thread-3] ERROR act.Act - Software caused connection abort: socket write error
+2017-07-17_10:15:11.022 [cli-thread-4] ERROR act.Act - Software caused connection abort: socket write error
